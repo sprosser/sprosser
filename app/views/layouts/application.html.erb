@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Stephen Prosser</title>
+  <%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body class="background">
+  <div class="web global-container">
+    <section class="site-wrapper">
+      <%= render 'layouts/header' %>
+
+      <%= yield %>
+
+    </section>
+  </div>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+</body>
+</html>

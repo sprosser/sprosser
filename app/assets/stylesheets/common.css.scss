@@ -1,0 +1,409 @@
+/* app css stylesheet */
+html {
+  font-family: "Helvetica Neue";
+}
+
+body {
+  height: 100%;
+  font-size: 1em;
+  line-height: 1.4;
+  margin: 0;
+  display: block;
+}
+
+div {
+  display: block;
+}
+
+h3 {
+  /*text-transform: uppercase;*/
+  font-size: 32px;
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue";
+  font-weight: 400;
+  display: block;
+}
+
+h4 {
+  text-transform: uppercase;
+  font-size: 26px;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue";
+}
+
+p {
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue";
+  font-weight: 400;
+  display: block;
+}
+
+section {
+  display: block;
+}
+
+ul {
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+
+li {
+  font-family: "Helvetica Neue";
+  font-weight: 400;
+  text-align: -webkit-match-parent;
+}
+
+article {
+  display: block;
+}
+
+.web.global-container {
+  height: 100%;
+}
+
+.site-wrapper {
+  min-height: 100%;
+  margin-top: 0;
+  margin-bottom: -126px;
+  /*background-color: #070716;*/
+  box-shadow: 0 10px 25px #000;
+  position: relative;
+}
+
+.site-wrapper .grid-squeezed {
+  padding: 0 90px;
+}
+
+.site-wrapper .grid-locked {
+  width: 100%;
+  max-width: 1228px;
+  margin: 0 auto;
+}
+
+.about-me {
+  background-color: #000;
+  height: 750px;
+  padding-bottom: 30px;
+  margin: 0;
+  position: relative;
+  text-align: center;
+}
+
+.background {
+  background-image: url("tiny_grid_@2X.png");
+  background-position: left top;
+  background-repeat: repeat;
+}
+
+.global-header {
+  width: 100%;
+  padding: 38px 20px 20px;
+  z-index: 5;
+  line-height: 10px;
+  color: #fff;
+  background-color: rgba(0,0,0,.75);
+  border-bottom: 1px solid #FFA51F;
+}
+
+.center {
+  text-align: center;
+}
+
+.block-center {
+  margin: 0 auto;
+  display: block;
+}
+
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+  padding-right: 25px;
+}
+
+.third {
+  width: 33.33333%;
+}
+
+.name {
+  width: 222px;
+  height: 30px;
+  display: inline-block;
+  border: 0;
+  overflow: hidden;
+  position: relative;
+  top: -9px;
+  text-align: center;
+  background-size: 221px 29px;
+  background-image: url("name.png");
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-color: transparent;
+}
+
+.trex {
+  width: 220px;
+  height:220px;
+  display: inline-block;
+  border: 0;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  background-size: 221px 220px;
+  background-image: url("trex.png");
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-color: transparent;
+}
+
+.global-header a, .headline a {
+  color: #fff;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.project a {
+  display: block;
+  width:100%;
+  min-height:285px;
+}
+
+.headline a {
+  text-transform: none;
+}
+
+.headline h4 {
+  // font-weight: 400;
+}
+
+.global-header .pull-right a {
+  padding: 5px 12px;
+  display: inline-block;
+}
+
+
+.portfolio, .contact {
+  min-height: 520px;
+  padding-top: 115px;
+  padding-bottom: 50px;
+  position: relative;
+  text-align: center;
+}
+
+.label {
+  display: inline-block;
+  margin-bottom: 20px;
+  padding: 0 10px;
+  background-color: #000;
+  font-size: 10px;
+  font-weight: 500;
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 23px;
+  letter-spacing: 1px;
+}
+
+.portfolio .story {
+  padding: 50px 0;
+}
+
+.story {
+  list-style: none outside none;
+}
+
+.ui3 {
+  letter-spacing: -.31em;
+  text-rendering: optimizespeed;
+}
+
+.story li {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.portfolio .yui3-u-1-3 {
+  width: 30%;
+}
+
+.yui3-u-1-3, .yui3-u-m-1-2, .yui3-u-s-1-2 {
+  display: inline-block;
+  zoom: 1;
+  letter-spacing: normal;
+  word-spacing: normal;
+  vertical-align: top;
+  text-rendering: auto;
+}
+
+.story li .title-box {
+  display: table;
+  width: 100%;
+  height: 285px;
+  position: absolute;
+  z-index: 4;
+}
+
+.story li .headline {
+  display: table-cell;
+  position: relative;
+  top: 0;
+  -webkit-transition: top .2s ease-out;
+  -moz-transition: top .2s ease-out;
+  -o-transition: top .2s ease-out;
+  transition: top .2s ease-out;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.jeannie, .harvest, .daylight, .linkedfa, .github  {
+  background-size: auto 100%;
+  background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.jeannie {
+  background-image: url('dashboard2.jpg');
+}
+
+.harvest {
+  background-image: url('hvst.png');
+}
+
+.daylight {
+  background-image: url('daylight.jpg');
+}
+
+.linkedfa {
+  background-image: url('linkedfa.png');
+}
+
+.github {
+  background-image: url('octocat.jpg');
+}
+
+.story li>div {
+  min-height: 285px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  border: 1px solid #bababa;
+}
+
+.story li .overlay {
+  width: 100%;
+  height: 100%;
+  -webkit-transition: top .2s ease-out;
+  -moz-transition: top .2s ease-out;
+  -o-transition: top .2s ease-out;
+  transition: top .2s ease-out;
+  background-color: rgba(7,7,22,.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3;
+}
+
+.story li .plus {
+  display: block;
+  margin-left: -13px;
+  padding:2px;
+  top:225px;
+  left:50%;
+  border: 1px solid #FFA51F;
+  background-color: #fff;
+  background-size: 20px 20px;
+  color: #FFA51F;
+  opacity: .9;
+  width: 21px;
+  height: 21px;
+  position: absolute;
+  background-repeat: no-repeat;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.about-me .label {
+  display: inline-block;
+  margin: 20px;
+  padding: 0 10px;
+  background-color: #fff;
+  font-size: 10px;
+  font-weight: 500;
+  color: #000;
+  text-transform: uppercase;
+  line-height: 23px;
+  letter-spacing: 1px;
+}
+
+.about-me .me {
+  border: 1px solid #FFA51F;
+  background-image: url("me2.png");
+  background-size: 150px 150px;
+  width: 151px;
+  height: 151px;
+  margin: 25px;
+  position: absolute;
+  z-index: 1;
+  background-repeat: no-repeat;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.narrow {
+  min-width: 250px;
+}
+
+.about-me h4 {
+  margin-top: 20px;
+  font-style: italic;
+  color: #fff;
+}
+
+.about-me p {
+  color: #fff;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-left li {
+  margin-left:25px;
+  color: #fff;
+}
+
+.top-border {
+  border-top: 1px solid #fff;
+}
+
+.padding-small {
+  padding-top: 10px;
+}
+
+.contact {
+  padding-top: 50px;
+  min-height: 400px;
+}
+
+.contact-info {
+  padding-left: 350px;
+}
+
+.contact h4 {
+  text-transform: none;
+}

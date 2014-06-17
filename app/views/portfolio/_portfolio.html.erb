@@ -1,0 +1,12 @@
+<div class="grid-locked grid-squeezed">
+  <article>
+    <h3>Good day! My name is Steve and I'm a developer, passionate rubyist, and all around website velociraptor.</h3><br />
+    <p class="label" id="portfolio-label">portfolio</p>
+    <p>Here is a short history of fun projects I have had the pleasure of working on!</p>
+    <ul class="story ui3">
+      <% @projects.each do |project| %>
+        <%= render "projects", project: project %>
+      <% end %>
+    </ul>
+  </article>
+</div>
