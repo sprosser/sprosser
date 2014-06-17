@@ -66,10 +66,7 @@ article {
 
 .web.global-container {
   height: 100%;
-}
-
-.grid-squeezed {
-  padding: 0 90px;
+  width:100%;
 }
 
 .grid-locked {
@@ -80,9 +77,9 @@ article {
 
 .about-me {
   background-color: #000;
-  height: 750px;
-  padding-bottom: 30px;
-  margin: 0;
+  min-height: 750px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   position: relative;
   text-align: center;
 }
