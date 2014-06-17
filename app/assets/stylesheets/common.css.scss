@@ -68,20 +68,11 @@ article {
   height: 100%;
 }
 
-.site-wrapper {
-  min-height: 100%;
-  margin-top: 0;
-  margin-bottom: -126px;
-  /*background-color: #070716;*/
-  box-shadow: 0 10px 25px #000;
-  position: relative;
-}
-
-.site-wrapper .grid-squeezed {
+.grid-squeezed {
   padding: 0 90px;
 }
 
-.site-wrapper .grid-locked {
+.grid-locked {
   width: 100%;
   max-width: 1228px;
   margin: 0 auto;
@@ -104,6 +95,7 @@ article {
 
 .global-header {
   width: 100%;
+  // min-width:1130px;
   padding: 38px 20px 20px;
   z-index: 5;
   line-height: 10px;
