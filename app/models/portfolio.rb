@@ -44,7 +44,7 @@ def self.projects
     {
       languages: "Ruby, HTML, HTML5, CSS3, Javascript, jQuery, CoffeeScript",
       frameworks: "Rails, Sinatra, AngularJS",
-      database: "PostgreSGL, SQLite, MySQL",
+      database: "PostgreSQL, SQLite, MySQL",
       testing: "Rspec, Capybara, Cucumber, Jasmine",
       other: "Github, Git, PivotalTracker, Trello, Asana, Heroku, Google Analytics, Facebook OpenGraph, NewRelic, Wordpress",
       nonTech: "Grilling, Martial Arts, Camping, Bouldering, Dogs, Reading, and just exploring in general"
