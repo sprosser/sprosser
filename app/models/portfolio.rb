@@ -5,7 +5,7 @@ def self.projects
       {
         name: "Jeannie",
         class_name: "jeannie",
-        link: "/",
+        link: "JavaScript:void()",
         description: "Side-project, currently in stealth. Jeannie works to re-invent gift giving",
         technology: "Ruby, Rails, AngularJS, HTML5, CSS3"
       },
