@@ -8,9 +8,9 @@
     <tr>
       <td class="text-left contact-info">
         <h4>
-          Email: me@stephenprosser.com<br />
+          Email: <%= mail_to "me@stephenprosser.com" %><br />
           Phone: 386.451.3480<br />
-          Twitter: @sprosser86
+          Twitter: <%= link_to("@sprosser86", "http://twitter.com/sprosser86", {target: "blank"}) %>
         </h4>
       </td>
       <td>
