@@ -256,11 +256,15 @@ article {
   vertical-align: middle;
 }
 
-.jeannie, .harvest, .daylight, .linkedfa, .github  {
+.jeannie, .harvest, .daylight, .linkedfa, .github, .opinionlab  {
   background-size: auto 100%;
   background-color: transparent;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.opinionlab {
+  background-image: url('opinionlab.png');
 }
 
 .jeannie {

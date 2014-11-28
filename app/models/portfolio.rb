@@ -3,6 +3,13 @@ class Portfolio
 def self.projects
   [
       {
+        name: "OpinionLab",
+        class_name: "opinionlab",
+        link: "http://www.opinionlab.com",
+        description: "An omnichannel Voice of Customer (VoC) feedback application for major Fortune 500 clients",
+        technology: "Ruby, Clojure, ElasticSearch, Rails, Backbone.js, PostgreSQL, HTML5, CSS3"
+      },
+      {
         name: "Jeannie",
         class_name: "jeannie",
         link: "JavaScript:void()",
