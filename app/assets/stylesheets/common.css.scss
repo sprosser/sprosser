@@ -256,7 +256,7 @@ article {
   vertical-align: middle;
 }
 
-.jeannie, .harvest, .daylight, .linkedfa, .github, .opinionlab  {
+.jeannie, .harvest, .daylight, .linkedfa, .github, .opinionlab, .guaranteedrate  {
   background-size: auto 100%;
   background-color: transparent;
   background-position: center;
@@ -285,6 +285,10 @@ article {
 
 .github {
   background-image: url('octocat.jpg');
+}
+
+.guaranteedrate {
+  background-image: url('guaranteed-rate-logo.jpg');
 }
 
 .story li>div {

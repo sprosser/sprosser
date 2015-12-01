@@ -147,7 +147,6 @@ GEM
     omniauth-oauth2 (1.0.3)
       oauth2 (~> 0.8.0)
       omniauth (~> 1.0)
-    pg (0.15.1)
     polyglot (0.3.5)
     pry (0.10.0)
       coderay (~> 1.1.0)
@@ -264,7 +263,6 @@ DEPENDENCIES
   jbuilder (= 1.0.2)
   jquery-rails (= 3.0.4)
   omniauth-facebook (= 1.4.0)
-  pg (= 0.15.1)
   rails (= 4.0.0)
   rails_12factor (= 0.0.2)
   rspec-rails (= 2.13.1)
@@ -276,3 +274,6 @@ DEPENDENCIES
   turbolinks (= 1.1.1)
   uglifier (= 2.1.1)
   will_paginate (= 3.0.4)
+
+BUNDLED WITH
+   1.10.6
